@@ -19,4 +19,9 @@ public class ScrapeTheNet  implements CommandLineRunner {
         log.info("Hello World, I am scraping.");
     }
 
+
+    public String getSomeData() {
+       return "Here is your data";
+    }
+
 }
